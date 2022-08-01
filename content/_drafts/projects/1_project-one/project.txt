@@ -1,0 +1,37 @@
+Title: Project One
+
+----
+
+Headline: Leon Bridges Poster
+
+----
+
+Client: Personal Project
+
+----
+
+Month: January
+
+----
+
+Year: 2022
+
+----
+
+Tags: Tag1, Tag2
+
+----
+
+Description: This is the description
+
+----
+
+Main-content: [{"content":{"images":["untitled-1.jpg"]},"id":"f1c3a832-9783-4d8c-a6fc-3dfd63563b4e","isHidden":false,"type":"gallery"},{"content":{"text":"<p>Testing<\/p>"},"id":"133b59ec-9579-4d0c-9987-dfbe89157c14","isHidden":false,"type":"text"}]
+
+----
+
+Intro: 
+
+----
+
+Text: 

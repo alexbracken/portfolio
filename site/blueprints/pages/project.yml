@@ -1,0 +1,57 @@
+title: Project
+preset: page
+
+status:
+  draft: Draft
+  listed: Published
+
+fields:
+    headline:
+      type: text
+      required: true
+    client:
+      type: text
+      width: 1/2
+      required: true
+    month:
+      type: select
+      width: 1/4
+      required: false
+      options:
+        - January
+        - February
+        - March
+        - April
+        - May
+        - June
+        - July
+        - August
+        - September
+        - October
+        - November
+        - December
+    year:
+      type: number
+      min: 2000
+      required: true
+      width: 1/4
+    tags:
+      type: tags
+    description:
+      type: textarea
+      size: small
+    main_content:
+      label: Main Content
+      type: blocks
+      size: large
+
+sidebar:
+  cover:
+    type: files
+    label: Cover
+    layout: cards
+    info: "{{ file.dimensions }}"
+    template: cover
+    required: true
+    max: 1
+  stats:
